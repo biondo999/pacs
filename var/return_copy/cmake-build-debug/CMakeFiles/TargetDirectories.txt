@@ -1,0 +1,3 @@
+/home/mariano/CLionProjects/pacs/var/return_copy/cmake-build-debug/CMakeFiles/return_copy.dir
+/home/mariano/CLionProjects/pacs/var/return_copy/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/mariano/CLionProjects/pacs/var/return_copy/cmake-build-debug/CMakeFiles/rebuild_cache.dir
