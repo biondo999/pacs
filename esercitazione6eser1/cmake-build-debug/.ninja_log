@@ -1,0 +1,10 @@
+# ninja log v5
+1	183	1678902373691695850	build.ninja	c58d7dc9a8e3f9ff
+366	474	6887514650423374	esecitazione6eser1.exe	e3978137f32cc7fa
+0	182	1678902399131728267	CMakeFiles/esecitazione6eser1.dir/RootFinder.cpp.o	f83406fbeb471ad7
+1	182	1678902399131728267	CMakeFiles/esecitazione6eser1.dir/Robust.cpp.o	7f4cc358375ff196
+0	277	1678902399223728429	CMakeFiles/esecitazione6eser1.dir/Newton.cpp.o	66619facdd718233
+0	289	1678902399235728450	CMakeFiles/esecitazione6eser1.dir/Bisection.cpp.o	da487a6eb9e00bae
+1	339	1678902399287728541	CMakeFiles/esecitazione6eser1.dir/Function.cpp.o	7c28ae72768b1427
+0	346	1678902399295728555	CMakeFiles/esecitazione6eser1.dir/bn_allinone.cpp.o	357ca165baf5fcb9
+346	394	1678902399343728639	esecitazione6eser1	9ece87baa33909b4

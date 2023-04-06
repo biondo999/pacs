@@ -1,0 +1,3 @@
+/home/mariano/CLionProjects/pacs/esercitazione6eser1/cmake-build-debug/CMakeFiles/esecitazione6eser1.dir
+/home/mariano/CLionProjects/pacs/esercitazione6eser1/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/mariano/CLionProjects/pacs/esercitazione6eser1/cmake-build-debug/CMakeFiles/rebuild_cache.dir

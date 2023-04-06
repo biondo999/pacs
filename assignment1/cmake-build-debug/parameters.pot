@@ -1,0 +1,8 @@
+# Size of the interval [0,T]
+T=1
+# Number of points
+N=100
+# Initial condition
+y0=0
+# Theta term
+theta=0.5

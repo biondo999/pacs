@@ -1,0 +1,3 @@
+/home/mariano/CLionProjects/pacs/test/cmake-build-debug/CMakeFiles/test.dir
+/home/mariano/CLionProjects/pacs/test/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/mariano/CLionProjects/pacs/test/cmake-build-debug/CMakeFiles/rebuild_cache.dir
