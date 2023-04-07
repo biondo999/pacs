@@ -1,4 +1,5 @@
 #include <iostream>
+
 using namespace std;
 
 // One function works for all data types.  This would work
@@ -25,6 +26,7 @@ double FUN(T1 a,T2 b)
 {
     return a+b;
 }
+
 
 int main()
 {
