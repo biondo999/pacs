@@ -1,0 +1,17 @@
+# ninja log v5
+0	200	1680860312642541036	CMakeFiles/template_functions.dir/main.cpp.o	edd803ff6a719358
+200	272	1680860312714540685	template_functions	94e0c755f3714bda
+0	172	1680861007418066363	CMakeFiles/template_functions.dir/main.cpp.o	edd803ff6a719358
+172	224	1680861007470065976	template_functions	94e0c755f3714bda
+0	169	1680861041369812867	CMakeFiles/template_functions.dir/main.cpp.o	edd803ff6a719358
+169	213	1680861041413812537	template_functions	94e0c755f3714bda
+1	167	1680861122461200065	CMakeFiles/template_functions.dir/main.cpp.o	edd803ff6a719358
+167	211	1680861122505199730	template_functions	94e0c755f3714bda
+1	208	1680861890346353178	CMakeFiles/template_functions.dir/main.cpp.o	edd803ff6a719358
+208	278	1680861890414352360	template_functions	94e0c755f3714bda
+1	163	1680861989161193363	CMakeFiles/template_functions.dir/main.cpp.o	edd803ff6a719358
+163	211	1680861989209192812	template_functions	94e0c755f3714bda
+0	183	1680861997217101134	CMakeFiles/template_functions.dir/main.cpp.o	edd803ff6a719358
+183	233	1680861997269100539	template_functions	94e0c755f3714bda
+0	172	1680862080636164304	CMakeFiles/template_functions.dir/main.cpp.o	edd803ff6a719358
+172	216	1680862080680163819	template_functions	94e0c755f3714bda

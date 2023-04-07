@@ -1,0 +1,3 @@
+/home/mariano/CLionProjects/pacs/var/template_functions/cmake-build-debug/CMakeFiles/template_functions.dir
+/home/mariano/CLionProjects/pacs/var/template_functions/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/mariano/CLionProjects/pacs/var/template_functions/cmake-build-debug/CMakeFiles/rebuild_cache.dir
