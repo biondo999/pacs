@@ -1,0 +1,7 @@
+# ninja log v5
+1	43	1680982506461431982	CMakeFiles/assignment2.dir/Secant.cpp.o	b71da9a12ddf9b75
+1	43	1680982506461431982	CMakeFiles/assignment2.dir/SolverBase.cpp.o	5be165624f784844
+1	43	1680982506461431982	CMakeFiles/assignment2.dir/Bisection.cpp.o	2f7b6c2529e8f032
+1	44	1680982506461431982	CMakeFiles/assignment2.dir/QuasiNewton.cpp.o	9748fd2b334fb528
+0	246	1680982506661431245	CMakeFiles/assignment2.dir/main.cpp.o	c89f52ac4311f91e
+246	294	1680982506709431069	assignment2	c815d7c25e4c21f5

@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/assignment2.dir/main.cpp.o CMakeFiles/assignment2.dir/SolverBase.cpp.o CMakeFiles/assignment2.dir/QuasiNewton.cpp.o CMakeFiles/assignment2.dir/Bisection.cpp.o CMakeFiles/assignment2.dir/Secant.cpp.o -o assignment2 

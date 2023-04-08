@@ -1,3 +1,0 @@
-/home/mariano/CLionProjects/pacs/var/assignment2/cmake-build-debug/CMakeFiles/assignment2.dir
-/home/mariano/CLionProjects/pacs/var/assignment2/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/mariano/CLionProjects/pacs/var/assignment2/cmake-build-debug/CMakeFiles/rebuild_cache.dir
