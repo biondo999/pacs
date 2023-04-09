@@ -1,7 +1,7 @@
 //  -*- c++ -*-
 //  GetPot Version $$Version$$                                    $$Date$$
 //
-//  WEBSITE: http://getpot.sourceforge.net
+//  WEBSITE: http://getpot.source forge.net
 //
 //  NOTE: The LPGL License for this library is only valid in case that 
 //        this software is not used to produce or develop applications
@@ -23,7 +23,7 @@
 //  Foundation, Inc.,  59 Temple Place,  Suite 330, Boston,  MA 02111-1307
 //  USA
 //
-//  (C) 2001-2006 Frank R. Schaefer <fschaef@users.sf.net>
+//  (C) 2001-2006  Frank R. Schaefer <fschaef@users.sf.net>
 //==========================================================================
 
 #ifndef __include_guard_GETPOT_H__
