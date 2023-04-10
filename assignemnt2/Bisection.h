@@ -8,10 +8,9 @@
 #include "SolverBase.h"
 class Bisection: public SolverBase{
 private:
-    double a;
-    double b;
+
 public:
-    Bisection(double l,double r,Function g,IteratorType N,EPSILON eps,ResidualType c){
+    Bisection(double l,double r,const Function & g,IteratorType N,EPSILON eps,ResidualType c){
         if (g(l)<0 && g(r)<0) std::cerr<<"BISECTION_SOLVER_ERROR: the interval extrema have the same sign"<<std::endl;
         if (g(l)>0 && g(r)>0) std::cerr<<"BISECTION_SOLVER_ERROR: the interval extrema have the same sign"<<std::endl;
         a=l;
@@ -20,6 +19,7 @@ public:
         N_MAX=N;
         epsilon=eps;
         stopping_condition=c;
+        s="bisection";
     }
 
 

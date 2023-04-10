@@ -9,6 +9,9 @@
 #include <functional>
 #include <iostream>
 #include <cmath>
+#include <fstream>
+
+constexpr double PI = 3.1415926535897932384626433832795028841971693993751058209;
 
 enum checkT {
     INCREMENT, //! Check the difference between subsequent iterates
@@ -19,17 +22,20 @@ enum checkT {
 struct SolverTraits
 {
     using ResulType=double;
-    using OptionsType=unsigned;
     using IteratorType=std::size_t;
     using Function=std::function<double(ResulType)>;
     using EPSILON=double;
     using ResidualType=checkT;
+    using SolverType=std::string;
 };
 
 
 
 class SolverBase:public SolverTraits{
 protected:
+    double a;
+    double b;
+    SolverType s;
     std::vector<ResulType> iteration;
     ResulType final_result;
     Function f;
@@ -41,6 +47,7 @@ protected:
 
 
 public:
+    void write_error_on_file() const;
     virtual void solve()=0;
     virtual ~SolverBase()=default;
     void print_iteration()const ;

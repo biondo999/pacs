@@ -8,7 +8,6 @@
 void Bisection::solve(){
     bool solvable=true;
     if(f(a)==0) {
-        std::cout<<"ciao"<<std::endl;
         std::cout<<"BISECTION_SOLVER: there is a zero at x = "<<a<<"(left extrema)"<<std::endl;
         solvable=false;
     }
