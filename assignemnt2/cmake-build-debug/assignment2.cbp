@@ -88,6 +88,12 @@
 		<Unit filename="/home/mariano/CLionProjects/pacs/assignemnt2/Bisection.h">
 			<Option target="assignment2"/>
 		</Unit>
+		<Unit filename="/home/mariano/CLionProjects/pacs/assignemnt2/Factory.hpp">
+			<Option target="assignment2"/>
+		</Unit>
+		<Unit filename="/home/mariano/CLionProjects/pacs/assignemnt2/Proxy.hpp">
+			<Option target="assignment2"/>
+		</Unit>
 		<Unit filename="/home/mariano/CLionProjects/pacs/assignemnt2/QuasiNewton.cpp">
 			<Option target="assignment2"/>
 		</Unit>

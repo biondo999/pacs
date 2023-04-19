@@ -964,8 +964,59 @@ CMakeFiles/assignment2.dir/main.cpp.o: /home/mariano/CLionProjects/pacs/assignem
   /usr/include/x86_64-linux-gnu/c++/11/bits/c++io.h \
   /usr/include/c++/11/bits/fstream.tcc \
   /home/mariano/CLionProjects/pacs/assignemnt2/Secant.h \
-  /usr/include/c++/11/math.h
+  /usr/include/c++/11/math.h \
+  /home/mariano/CLionProjects/pacs/assignemnt2/Factory.hpp \
+  /usr/include/c++/11/map \
+  /usr/include/c++/11/bits/stl_tree.h \
+  /usr/include/c++/11/bits/stl_map.h \
+  /usr/include/c++/11/bits/stl_multimap.h \
+  /usr/include/c++/11/memory \
+  /usr/include/c++/11/bits/stl_raw_storage_iter.h \
+  /usr/include/c++/11/bits/align.h \
+  /usr/include/c++/11/bit \
+  /usr/include/c++/11/bits/unique_ptr.h \
+  /usr/include/c++/11/bits/shared_ptr.h \
+  /usr/include/c++/11/bits/shared_ptr_base.h \
+  /usr/include/c++/11/bits/allocated_ptr.h \
+  /usr/include/c++/11/ext/concurrence.h \
+  /usr/include/c++/11/bits/shared_ptr_atomic.h \
+  /usr/include/c++/11/bits/atomic_base.h \
+  /usr/include/c++/11/bits/atomic_lockfree_defines.h \
+  /usr/include/c++/11/backward/auto_ptr.h \
+  /usr/include/c++/11/pstl/glue_memory_defs.h \
+  /usr/include/c++/11/pstl/execution_defs.h \
+  /usr/include/c++/11/sstream \
+  /usr/include/c++/11/bits/sstream.tcc \
+  /home/mariano/CLionProjects/pacs/assignemnt2/Proxy.hpp
 
+
+/home/mariano/CLionProjects/pacs/assignemnt2/Proxy.hpp:
+
+/usr/include/c++/11/pstl/execution_defs.h:
+
+/usr/include/c++/11/backward/auto_ptr.h:
+
+/usr/include/c++/11/bits/atomic_lockfree_defines.h:
+
+/usr/include/c++/11/bits/atomic_base.h:
+
+/usr/include/c++/11/bits/allocated_ptr.h:
+
+/usr/include/c++/11/bits/shared_ptr_base.h:
+
+/usr/include/c++/11/bits/shared_ptr.h:
+
+/usr/include/c++/11/bit:
+
+/usr/include/c++/11/memory:
+
+/usr/include/c++/11/bits/stl_multimap.h:
+
+/usr/include/c++/11/bits/stl_tree.h:
+
+/usr/include/c++/11/map:
+
+/home/mariano/CLionProjects/pacs/assignemnt2/Factory.hpp:
 
 /home/mariano/CLionProjects/pacs/assignemnt2/main.cpp:
 
@@ -1028,6 +1079,8 @@ CMakeFiles/assignment2.dir/main.cpp.o: /home/mariano/CLionProjects/pacs/assignem
 /usr/include/c++/11/bits/locale_facets.h:
 
 /usr/include/c++/11/bits/charconv.h:
+
+/usr/include/c++/11/bits/stl_raw_storage_iter.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/error_t.h:
 
@@ -1121,6 +1174,8 @@ CMakeFiles/assignment2.dir/main.cpp.o: /home/mariano/CLionProjects/pacs/assignem
 
 /usr/include/c++/11/bits/node_handle.h:
 
+/usr/include/c++/11/ext/concurrence.h:
+
 /usr/include/c++/11/initializer_list:
 
 /usr/include/x86_64-linux-gnu/bits/mathcalls-narrow.h:
@@ -1147,11 +1202,15 @@ CMakeFiles/assignment2.dir/main.cpp.o: /home/mariano/CLionProjects/pacs/assignem
 
 /usr/include/c++/11/bits/stl_algobase.h:
 
+/usr/include/c++/11/bits/stl_map.h:
+
 /usr/include/x86_64-linux-gnu/bits/endian.h:
 
 /usr/include/c++/11/bits/ostream_insert.h:
 
 /usr/include/x86_64-linux-gnu/sys/cdefs.h:
+
+/usr/include/c++/11/bits/shared_ptr_atomic.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/__sigset_t.h:
 
@@ -1168,6 +1227,8 @@ CMakeFiles/assignment2.dir/main.cpp.o: /home/mariano/CLionProjects/pacs/assignem
 /usr/include/stdc-predef.h:
 
 /usr/include/x86_64-linux-gnu/sys/single_threaded.h:
+
+/usr/include/c++/11/bits/sstream.tcc:
 
 /usr/include/c++/11/string_view:
 
@@ -1226,6 +1287,8 @@ CMakeFiles/assignment2.dir/main.cpp.o: /home/mariano/CLionProjects/pacs/assignem
 /usr/include/c++/11/debug/debug.h:
 
 /home/mariano/CLionProjects/pacs/assignemnt2/SolverBase.h:
+
+/usr/include/c++/11/bits/unique_ptr.h:
 
 /usr/include/c++/11/ext/type_traits.h:
 
@@ -1296,6 +1359,8 @@ CMakeFiles/assignment2.dir/main.cpp.o: /home/mariano/CLionProjects/pacs/assignem
 /usr/include/x86_64-linux-gnu/bits/types/locale_t.h:
 
 /usr/include/x86_64-linux-gnu/bits/types/__locale_t.h:
+
+/usr/include/c++/11/pstl/glue_memory_defs.h:
 
 /usr/include/c++/11/bits/streambuf_iterator.h:
 
@@ -1387,6 +1452,8 @@ CMakeFiles/assignment2.dir/main.cpp.o: /home/mariano/CLionProjects/pacs/assignem
 
 /usr/include/x86_64-linux-gnu/bits/types/mbstate_t.h:
 
+/usr/include/c++/11/bits/align.h:
+
 /usr/include/x86_64-linux-gnu/bits/setjmp.h:
 
 /usr/include/c++/11/tuple:
@@ -1456,5 +1523,7 @@ CMakeFiles/assignment2.dir/main.cpp.o: /home/mariano/CLionProjects/pacs/assignem
 /usr/include/c++/11/bits/string_view.tcc:
 
 /usr/include/time.h:
+
+/usr/include/c++/11/sstream:
 
 /usr/include/c++/11/bits/locale_classes.h:

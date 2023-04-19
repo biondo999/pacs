@@ -22,6 +22,9 @@ public:
         s="bisection";
     }
 
+    Bisection()=default;
+    void readparameters(std::string const &filename, bool verbose);
+
 
 
     void solve() override;

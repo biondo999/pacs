@@ -26,7 +26,7 @@ Secant(double l,double r,const Function & g,IteratorType N,EPSILON eps,ResidualT
     x1=x1_;
 }
 
-
+Secant()=default;
 
 void solve() override;
 };
