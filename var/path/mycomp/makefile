@@ -14,7 +14,7 @@ $(TARGET): $(OBJS)
 	@g++ -Wl,-rpath=. -Wl,-rpath=$(LIB_PATH) -g   $< -L$(LIB_PATH)  -lmuparser -o main
 			
 $(OBJS): $(SRCS)
-		        @g++ -c $< -I$(MY_INCLUDE) -I$(OTHER_INCLUDE1) ) -o $@
+		        @g++ -fconcepts -c $< -I$(MY_INCLUDE) -I$(OTHER_INCLUDE1) -o $@
 		        
 .PHONY:	clear		      
 clear:	

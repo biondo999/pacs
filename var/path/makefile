@@ -1,5 +1,5 @@
 MY_INCLUDE=$$HOME/pacs/pacs-examples/Examples/include
-OTHER_INCLUDE1=$$HOME/pacs-examples/Examples/include/muparserx
+OTHER_INCLUDE1=$$HOME/pacs-examples/Examples/lib
 OTHER_INCLUDE2=$$HOME/Work/pacs/PACSCourse/Material/Examples/include
 
 .PHONY:	all
