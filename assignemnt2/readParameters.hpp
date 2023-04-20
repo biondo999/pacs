@@ -8,7 +8,7 @@
   @param filename The getopot file with the new values
   @param verbose Prints some information on the parameters
  */
-parameters readParameters(std::string const &filename, bool verbose = false);
+void readParameters(std::string const &filename, bool verbose = false);
 //! Reads problem parameters from json file
 /*!
   @param filename The json file with the parameter values

@@ -3,6 +3,7 @@
 //
 
 #include "Bisection.h"
+#include "muparser.h"
 
 
 void Bisection::solve(){
@@ -57,6 +58,28 @@ void Bisection::solve(){
     print_output(mid,found,iter,increment,residual);
 
     final_result=mid;
+
+}
+
+void Bisection::read_parameters(const std::string &filename) {
+    std::ifstream check(filename);
+    if(!check)
+    {
+        std::cerr << "ERROR: Parameter file " << filename << " does not exist"
+                  << std::endl;
+        std::cerr << "Reverting to default values." << std::endl;
+    }
+    else
+        check.close();
+
+    GetPot     ifile(filename.c_str());
+    parameters values;
+    // Read parameters from getpot ddata base
+    a = ifile("a", defaults.a);
+    b= ifile("b", defaults.b);
+    N_MAX = ifile("N_MAX", defaults.N_MAX);
+    epsilon = ifile("epsilon", defaults.epsilon);
+    stopping_condition=ifile("stopping_condition", defaults.stopping_condition);
 
 }
 

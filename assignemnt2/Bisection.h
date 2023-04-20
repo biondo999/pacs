@@ -23,7 +23,7 @@ public:
     }
 
     Bisection()=default;
-    void readparameters(std::string const &filename, bool verbose);
+    void read_parameters(std::string const &filename) override;
 
 
 

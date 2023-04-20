@@ -10,6 +10,7 @@
 #include <iostream>
 #include <cmath>
 #include <fstream>
+#include "parameters.hpp"
 
 constexpr double PI = 3.1415926535897932384626433832795028841971693993751058209;
 
@@ -51,6 +52,7 @@ public:
     virtual void solve()=0;
     virtual ~SolverBase()=default;
     void print_iteration()const ;
+    virtual void read_parameters(std::string const &filename)=0;
 };
 
 

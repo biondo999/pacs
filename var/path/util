@@ -1,0 +1,5 @@
+g++ -Wl,-rpath=. -Wl,-rpath=/home/mariano/pacs/pacs-examples/Examples/lib -g main.o -L/home/mariano/pacs/pacs-examples/Examples/lib -lmuparser -L-L/home/mariano/pacs/pacs-examples/Examples/lib -lmuparserx -L/home/mariano/pacs/pacs-examples/Examples/lib -lpacs -o main
+
+
+
+g++ -Wl,-rpath=. -Wl,-rpath=/home/mariano/pacs/pacs-examples/Examples/lib -g   main.o -L/home/mariano/pacs/pacs-examples/Examples/lib -lmuparser -o main

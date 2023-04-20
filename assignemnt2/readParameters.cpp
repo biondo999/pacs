@@ -2,8 +2,7 @@
 #include "readParameters.hpp"
 #include <fstream>
 #include "iostream"
-parameters
-readParameters(std::string const &filename, bool verbose)
+void readParameters(std::string const &filename, bool verbose)
 {
   // Parameter default constructor fills it with the defaults values
   parameters defaults;

@@ -1,6 +1,7 @@
 #include <iostream>
 #include<cmath>
 #include "ODE.h"
+#include "muParser.h"
 
 
 
