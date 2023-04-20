@@ -1,9 +1,10 @@
 #include <iostream>
 #include "Bisection.h"
 #include "Secant.h"
-#include "math.h"
+#include "cmath"
 #include "Factory.hpp"
-#include "Proxy.hpp"
+
+
 
 
 using Abstract=SolverBase;
@@ -32,7 +33,7 @@ void loadFactory()
 
 
 int main() {
-    /*
+
     auto f =[](double x){ return 0.5-exp(PI*x);};
     Bisection b(-1.5,1,f,100,1e-10,INCREMENT);
     b.solve();
@@ -42,7 +43,7 @@ int main() {
     Secant c(-1.5,1,f,100,1e-10,BOTH,0.75,0.76);
     c.solve();
     c.write_error_on_file();
-     */
+     /*
     auto f =[](double x){ return 0.5-exp(PI*x);};
 
     loadFactory();
@@ -61,7 +62,7 @@ int main() {
 
     auto c=factory.create("Secant");
 
-
+*/
 
 
     return 0;

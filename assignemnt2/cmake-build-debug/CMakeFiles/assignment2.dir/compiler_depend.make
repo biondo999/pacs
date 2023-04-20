@@ -964,7 +964,6 @@ CMakeFiles/assignment2.dir/main.cpp.o: /home/mariano/CLionProjects/pacs/assignem
   /usr/include/x86_64-linux-gnu/c++/11/bits/c++io.h \
   /usr/include/c++/11/bits/fstream.tcc \
   /home/mariano/CLionProjects/pacs/assignemnt2/Secant.h \
-  /usr/include/c++/11/math.h \
   /home/mariano/CLionProjects/pacs/assignemnt2/Factory.hpp \
   /usr/include/c++/11/map \
   /usr/include/c++/11/bits/stl_tree.h \
@@ -986,11 +985,8 @@ CMakeFiles/assignment2.dir/main.cpp.o: /home/mariano/CLionProjects/pacs/assignem
   /usr/include/c++/11/pstl/glue_memory_defs.h \
   /usr/include/c++/11/pstl/execution_defs.h \
   /usr/include/c++/11/sstream \
-  /usr/include/c++/11/bits/sstream.tcc \
-  /home/mariano/CLionProjects/pacs/assignemnt2/Proxy.hpp
+  /usr/include/c++/11/bits/sstream.tcc
 
-
-/home/mariano/CLionProjects/pacs/assignemnt2/Proxy.hpp:
 
 /usr/include/c++/11/pstl/execution_defs.h:
 
@@ -1347,8 +1343,6 @@ CMakeFiles/assignment2.dir/main.cpp.o: /home/mariano/CLionProjects/pacs/assignem
 /usr/include/x86_64-linux-gnu/bits/timesize.h:
 
 /usr/include/c++/11/bits/stl_iterator.h:
-
-/usr/include/c++/11/math.h:
 
 /usr/include/x86_64-linux-gnu/bits/stdint-intn.h:
 

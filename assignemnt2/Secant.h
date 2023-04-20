@@ -29,6 +29,10 @@ Secant(double l,double r,const Function & g,IteratorType N,EPSILON eps,ResidualT
 Secant()=default;
 
 void solve() override;
+/*
+void read_parameters(std::string const &filename) override;
+ */
+
 };
 
 

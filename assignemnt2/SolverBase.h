@@ -10,7 +10,9 @@
 #include <iostream>
 #include <cmath>
 #include <fstream>
-#include "parameters.hpp"
+/*
+#include "muParser.h"
+ */
 
 constexpr double PI = 3.1415926535897932384626433832795028841971693993751058209;
 
@@ -20,14 +22,24 @@ enum checkT {
     BOTH       //! Check both conditions
 };
 
+
 struct SolverTraits
 {
     using ResulType=double;
     using IteratorType=std::size_t;
-    using Function=std::function<double(ResulType)>;
     using EPSILON=double;
+    using Function=std::function<double(double)>;
     using ResidualType=checkT;
     using SolverType=std::string;
+/*
+    struct Function{
+        mu::Parser p;
+        double x=1;
+        void init(const std::string &s){p.DefineVar("x", &x);p.SetExpr(s);}
+        auto operator()(auto a){x=a;return p.Eval();}
+    };
+    */
+
 };
 
 
@@ -52,7 +64,9 @@ public:
     virtual void solve()=0;
     virtual ~SolverBase()=default;
     void print_iteration()const ;
+    /*
     virtual void read_parameters(std::string const &filename)=0;
+     */
 };
 
 

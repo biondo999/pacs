@@ -3,7 +3,7 @@
 //
 
 #include "Bisection.h"
-#include "muparser.h"
+
 
 
 void Bisection::solve(){
@@ -61,6 +61,7 @@ void Bisection::solve(){
 
 }
 
+/*
 void Bisection::read_parameters(const std::string &filename) {
     std::ifstream check(filename);
     if(!check)
@@ -71,54 +72,17 @@ void Bisection::read_parameters(const std::string &filename) {
     }
     else
         check.close();
-
-    GetPot     ifile(filename.c_str());
+    GetPot ifile(filename.c_str());
     parameters values;
     // Read parameters from getpot ddata base
     a = ifile("a", defaults.a);
     b= ifile("b", defaults.b);
     N_MAX = ifile("N_MAX", defaults.N_MAX);
     epsilon = ifile("epsilon", defaults.epsilon);
-    stopping_condition=ifile("stopping_condition", defaults.stopping_condition);
-
+    stopping_condition=static_cast <ResidualType> (ifile("stopping_condition", defaults.stopping_condition));
+    std::string function=ifile("function", defaults.function);
+    f.init(function);
 }
 
-
-void Bisection::readParameters(std::string const &filename, bool verbose)
-{
-// Parameter default constructor fills it with the defaults values
-// checks if file exixts and is readable
-std::ifstream check(filename);
-if(!check)
-{
-std::cerr << "ERROR: Parameter file " << filename << " does not exist"
-<< std::endl;
-std::cerr << "Reverting to default values." << std::endl;
-if(verbose)
-std::cout << defaults;
-check.close();
-return defaults;
-}
-else
-check.close();
-
-GetPot     ifile(filename.c_str());
-parameters values;
-// Read parameters from getpot ddata base
-values.T = ifile("T", defaults.T);
-values.N = ifile("N", defaults.N);
-values.y0 = ifile("y0", defaults.y0);
-values.theta = ifile("theta", defaults.theta);
-if(verbose)
-{
-std::cout << "PARAMETER VALUES IN GETPOT FILE"
-<< "\n";
-ifile.print();
-std::cout << std::endl;
-std::cout << "ACTUAL VALUES"
-<< "\n"
-<< values;
-}
-return values;
-}
+*/
 

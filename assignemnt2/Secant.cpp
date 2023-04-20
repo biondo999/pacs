@@ -68,3 +68,29 @@ void Secant::solve(){
     final_result=x_new;
 
 }
+
+/*
+void Secant::read_parameters(const std::string &filename) {
+    std::ifstream check(filename);
+    if(!check)
+    {
+        std::cerr << "ERROR: Parameter file " << filename << " does not exist"
+                  << std::endl;
+        std::cerr << "Reverting to default values." << std::endl;
+    }
+    else
+        check.close();
+    GetPot ifile(filename.c_str());
+    parameters values;
+    // Read parameters from getpot ddata base
+    a = ifile("a", defaults.a);
+    b= ifile("b", defaults.b);
+    N_MAX = ifile("N_MAX", defaults.N_MAX);
+    epsilon = ifile("epsilon", defaults.epsilon);
+    stopping_condition=static_cast <ResidualType> (ifile("stopping_condition", defaults.stopping_condition));
+    x0= ifile("x0", defaults.x0);
+    x1= ifile("x1", defaults.x1);
+    std::string function=ifile("function", defaults.function);
+    f.init(function);
+}
+*/

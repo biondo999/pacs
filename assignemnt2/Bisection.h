@@ -23,9 +23,10 @@ public:
     }
 
     Bisection()=default;
+/*
     void read_parameters(std::string const &filename) override;
 
-
+*/
 
     void solve() override;
 

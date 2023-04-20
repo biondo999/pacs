@@ -196,7 +196,6 @@ CMakeFiles/assignment2.dir/main.cpp.o: \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++io.h \
  /usr/include/c++/11/bits/fstream.tcc \
  /home/mariano/CLionProjects/pacs/assignemnt2/Secant.h \
- /usr/include/c++/11/math.h \
  /home/mariano/CLionProjects/pacs/assignemnt2/Factory.hpp \
  /usr/include/c++/11/map /usr/include/c++/11/bits/stl_tree.h \
  /usr/include/c++/11/bits/stl_map.h \
@@ -214,5 +213,4 @@ CMakeFiles/assignment2.dir/main.cpp.o: \
  /usr/include/c++/11/backward/auto_ptr.h \
  /usr/include/c++/11/pstl/glue_memory_defs.h \
  /usr/include/c++/11/pstl/execution_defs.h /usr/include/c++/11/sstream \
- /usr/include/c++/11/bits/sstream.tcc \
- /home/mariano/CLionProjects/pacs/assignemnt2/Proxy.hpp
+ /usr/include/c++/11/bits/sstream.tcc
