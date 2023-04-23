@@ -18,6 +18,32 @@ bool SolverBase::converged(double increment, double residual,
     }
 }
 
+
+bool SolverBase::check_extrema(){
+    bool solvable=true;
+    if(f(a)==0) {
+        std::cout<<s+"SOLVER: there is a zero at x = "<<a<<"(left extremum)"<<std::endl;
+        solvable=false;
+    }
+    if(f(b)==0) {
+        std::cout<<s+"SOLVER: there is a zero at x = "<<b<<"(right extremum)"<<std::endl;
+        solvable=false;
+    }
+
+
+    if (f(a)<0 && f(b)<0){
+        std::cerr<<s+"SOLVER_ERROR: the interval extrema have the same sign"<<std::endl;
+        solvable=false;
+    }
+    if (f(a)>0 && f(b)>0) {
+        std::cerr << s+"SOLVER_ERROR: the interval extrema have the same sign" << std::endl;
+        solvable = false;
+    }
+    return solvable;
+}
+
+
+
 void SolverBase::print_output(double mid, bool found, IteratorType  iter,double increment,double residual) const {
     if(found) std::cout<<"zero found at x = "<<mid<<" in "<<iter<<" iteration/iterations"<<std::endl;
     else std::cout<<"the zero was not found in "<<iter<<" iteration/iterations"<<std::endl;
@@ -26,14 +52,17 @@ void SolverBase::print_output(double mid, bool found, IteratorType  iter,double 
 }
 
 void SolverBase::print_iteration() const {
-    for(const auto iter :iteration) std::cout<<"-->"<<iter;
+    for(const auto iter :iteration){
+     std::cout<<"--> x ="<<iter;
+     }
     std::cout<<std::endl;
 }
 
 void SolverBase::write_error_on_file() const{
+    if(save_error){
     ResulType ex;
-    ex=log(0.5)/PI;
-    std::cout<<"type the real zero -> ";
+    ex=exact_sol;
+    //std::cout<<"type the real zero -> ";
     //std::cin>>ex;
     std::cout<<"SAVING ERROR ON FILE"<<std::endl;
     std::cout << "Error file: "<<"error_"+s+".dat"<<std::endl;
@@ -47,4 +76,7 @@ void SolverBase::write_error_on_file() const{
         f << m+1 << "\t\t" << std::abs(iteration[m]-ex) << "\t\t" << (b-a)/pow(2,m+1)<< "\n";
     }
     f.close();
-}
+    std::cout<<"\n";
+                 }
+                 }
+

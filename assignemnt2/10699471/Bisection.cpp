@@ -6,26 +6,7 @@
 #include "GetPot"
 
 void Bisection::solve(){
-    bool solvable=true;
-    if(f(a)==0) {
-        std::cout<<"BISECTION_SOLVER: there is a zero at x = "<<a<<"(left extrema)"<<std::endl;
-        solvable=false;
-    }
-    if(f(b)==0) {
-        std::cout<<"BISECTION_SOLVER: there is a zero at x = "<<b<<"(right extrema)"<<std::endl;
-        solvable=false;
-    }
-
-
-    if (f(a)<0 && f(b)<0){
-        std::cerr<<"BISECTION_SOLVER_ERROR: the interval extrema have the same sign"<<std::endl;
-        solvable=false;
-    }
-    if (f(a)>0 && f(b)>0) {
-        std::cerr << "BISECTION_SOLVER_ERROR: the interval extrema have the same sign" << std::endl;
-        solvable = false;
-    }
-
+    bool solvable=check_extrema();
 
     if(!solvable) return;
 
@@ -53,7 +34,7 @@ void Bisection::solve(){
         found=converged(increment,residual,epsilon,stopping_condition);
     }
 
-    std::cout<<"BISECTION_SOLVER:"<<std::endl;
+    std::cout<<"SOLVER:"<<std::endl;
     print_output(mid,found,iter,increment,residual);
 
     final_result=mid;
@@ -73,14 +54,17 @@ void Bisection::read_parameters(const std::string &filename) {
     GetPot ifile(filename.c_str());
     //parameters values;
     // Read parameters from getpot ddata base
-    a = ifile("a", 0);
-    b= ifile("b", 0);
+    a = ifile("a", 0.);
+    b= ifile("b", 0.);
     N_MAX = ifile("N_MAX", 0);
-    epsilon = ifile("epsilon", 0);
+    epsilon = ifile("epsilon", 0.);
     stopping_condition=static_cast <ResidualType> (ifile("stopping_condition", 1));
-    std::cout<<stopping_condition<<std::endl;
     std::string function=ifile("function", "x*x");
     f.init(function);
+    s="Bisection";
+    save_error = ifile("save_error", false);
+    exact_sol = ifile("exact_sol", 0.);
+    
 }
 
 

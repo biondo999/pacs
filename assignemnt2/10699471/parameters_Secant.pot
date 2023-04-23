@@ -1,0 +1,20 @@
+# left extrema
+a=-1.5
+# right extrema
+b=1.
+# N_MAX
+N_MAX=100
+# epsilon
+epsilon=1e-8
+# stopping condition  INCREMENT(0) RESIDUAL(1) BOTH(2)
+stopping_condition=1
+# function
+function=0.5-exp(_pi*x)
+# x0
+x0=0.74
+# x1
+x1=0.75
+# save error
+save_error=true
+# exact_sol
+exact_sol=-0.220635600152

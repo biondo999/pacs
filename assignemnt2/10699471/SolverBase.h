@@ -33,7 +33,7 @@ struct SolverTraits
     struct Function{
         mu::Parser p;
         double x=1;
-        void init(const std::string &s){p.DefineVar("x", &x);p.SetExpr(s);std::cout<<"init"<<std::endl;}
+        void init(const std::string &s){p.DefineVar("x", &x);p.SetExpr(s);}
         auto operator()(auto a){x=a;return p.Eval();}
     };
    
@@ -55,6 +55,8 @@ protected:
     EPSILON epsilon=1e-8;
     ResidualType stopping_condition=BOTH;
     void print_output(double mid,bool found,IteratorType iter,double,double)const ;
+    bool save_error=false;
+    ResulType exact_sol;
 
 
 public:
@@ -62,8 +64,8 @@ public:
     virtual void solve()=0;
     virtual ~SolverBase()=default;
     void print_iteration()const;
-
     virtual void read_parameters(std::string const &filename)=0;
+    bool check_extrema();
    
 };
 
